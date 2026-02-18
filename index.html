@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>DOM практика</h1>
+    </header>
+
+    <section id="dom1">
+        <h2>DOM 1: Элементтер менен иштоо </h2>
+        <p id="dom1-text">Бул текст DOM аркылуу озгортулот</p>
+        <button id="change-text">ОЗГОРТУУ</button>
+    </section>
+
+    <section id="search-calculator">
+        <h2>Поиск жана калькулятор</h2>
+        <input type="text" id="search-input" placeholder="ИЗДОО">
+        <ul id="search-list">
+            <li>APPLE</li>
+            <li>BANANA</li>
+            <li>CHERRY</li>
+        </ul>
+
+        <input type="number" id="num1" placeholder="1сан">
+        <input type="number" id="num2" placeholder="2сан">
+        <button onclick="sum()">СУММА</button>
+        <p id="sum-result"></p>
+    </section>
+
+    <section>
+        <h2>DOM 3: Текст редактор</h2>
+        <textarea id="editor" rows="4" placeholder="Текстти озгортууго болот!"></textarea>
+        <button id="saveBtn">Сактоо</button>
+        <p id="savedText"></p>
+    </section>
+
+    <section>
+        <h2>DOM 4: SetAttribute & GetAttribute </h2>
+        <img id="image" src="лес с цветами.jpg" alt="Placeholder">
+        <br>
+        <button id="changeImg">Сүрөттү алмаштыруу</button>
+    </section>
+
+    <section>
+        <h2>DOM5: createElement & prepend</h2>
+
+        <input id="newItem" placeholder="Жаңы элемент жаз">
+        <button id="addBtn">Кошуу</button>
+
+        <ul id="lis">
+            <li>Элемент 1</li>
+            <li>Элемент 2</li>
+        </ul>
+</section>
+ 
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
